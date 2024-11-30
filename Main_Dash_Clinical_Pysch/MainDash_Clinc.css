@@ -1,0 +1,43 @@
+
+
+.background-clinc{
+    -fx-background-color: #80C9D9;
+}
+.background-dash{
+    -fx-background-color: #4A919D;
+    -fx-font-family: #000000;
+    -fx-text-fill: black; /* Text color */
+    -fx-alignment: center-left; /* Text aligned left */
+}
+.doc-back{
+    -fx-background-color: #4A919D;
+    -fx-font-family: #000000;
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-text-fill: black; /* Text color */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0, 3, 3); /* Shadow effect */
+    -fx-border-color: transparent; /* No border */
+}
+.doc-other{
+    -fx-border-color: transparent; /* No border */
+    -fx-text-fill: black; /* Text color */
+    -fx-background-color: #4A919D;
+    -fx-font-family: #000000;
+
+}
+.transparent-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: black; /* Text color (optional) */
+}
+
+.gradient-background {
+    -fx-background-color: linear-gradient(to bottom, #89c0c2, white);
+    -fx-background-radius: 20px; /* Curve for the background corners */
+    -fx-border-radius: 5px; /* Curve for the border (if needed) */
+    -fx-border-width: 1; /* Border width */
+    -fx-padding: 5; /* Inner padding for content */
+
+
+
+}
+
