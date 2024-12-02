@@ -1,0 +1,24 @@
+
+/*
+    Created on : Nov 27, 2024, 8:41:18 PM
+    Author     : Rochus
+*/
+
+.button-register {
+    -fx-font-size: 17.5px;
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #4A919D; 
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    
+}
+
+.background {
+    -fx-background-color: #B9DCE3;
+}
+
+
+   

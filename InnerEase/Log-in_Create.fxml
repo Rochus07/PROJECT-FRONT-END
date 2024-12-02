@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background-account" stylesheets="@LOGIN.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="195.0" layoutY="100.0" prefHeight="256.0" prefWidth="230.0" styleClass="background-login" stylesheets="@LOGIN.css">
+         <children>
+            <Text layoutX="40.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME" wrappingWidth="82.13671875" />
+            <TextField layoutX="40.0" layoutY="45.0" styleClass="User_PassField" stylesheets="@LOGIN.css" />
+            <Text layoutX="40.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" wrappingWidth="82.13671875">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+            <TextField layoutX="40.0" layoutY="112.0" styleClass="User_PassField" stylesheets="@LOGIN.css" />
+            <Text layoutX="64.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></Text>
+            <Text layoutX="47.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Account?">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></Text>
+            <Hyperlink layoutX="122.0" layoutY="188.0" text="Login" />
+            <Hyperlink layoutX="119.0" layoutY="216.0" text="Create" />
+            <Button layoutX="73.0" layoutY="152.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="82.0" styleClass="login-bigbutton" stylesheets="@LOGIN.css" text="LOGIN" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="110.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-login" text="INNER EASE" wrappingWidth="199.99999999999994">
+         <font>
+            <Font name="Times New Roman Italic" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-15.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="81.0" fitWidth="82.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/logo.png.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
