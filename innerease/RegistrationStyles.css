@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 29, 2024, 8:33:08 PM
+    Author     : Rochus
+*/
+
+.background-registration {
+    -fx-background-color: #c9e3e6;
+}
+
+.secondbackground {
+    -fx-background-color: #a6d1d6;
+    -fx-background-radius: 5px;
+    -fx-padding: 10;
+}
+
+.firstNameField {
+    -fx-padding: 5; /* Removes extra padding inside the TextField */
+    -fx-border-color: #5eaaa8; /* Border color */
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* To match the border */
+}
+
+.registet-bigbutton {
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* To match the border */    
+    -fx-background-color: #4a919d;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 50; /* Rounded corners */
+    -fx-padding: 10;
+    -fx-text-fill: #2c5860 ; /* Text color */
+}

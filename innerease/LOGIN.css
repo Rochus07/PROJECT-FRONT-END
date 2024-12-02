@@ -1,0 +1,34 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 30, 2024, 11:27:07 AM
+    Author     : Rochus
+*/
+
+.background-account{
+    -fx-background-color: #B9DCE3;
+}
+.background-login{
+    -fx-background-color: #A6D1D6;
+}
+.login-bigbutton {
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* To match the border */    
+    -fx-background-color: #4a919d;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20; /* Rounded corners */
+    -fx-text-fill: #2c5860 ; /* Text color */
+}
+.User_PassField {
+    -fx-padding: 5; /* Removes extra padding inside the TextField */
+    -fx-border-color: #5eaaa8; /* Border color */
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* To match the border */
+}
+
